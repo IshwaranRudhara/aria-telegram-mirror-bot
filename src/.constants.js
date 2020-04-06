@@ -2,7 +2,6 @@ module.exports = Object.freeze({
   TOKEN: '1033491868:AAERf48siHK4XaaOBQ4-YFjc7Rv9vfu4wBY',
   ARIA_SECRET: 'yua',
   ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir (no trailing "/")',
-  INDEX_DOMAIN: 'https://aria.water.workers.dev/',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
   ARIA_FILTERED_DOMAINS: ['yts', 'YTS', 'cruzing.xyz', 'eztv.ag', 'YIFY'], // Prevent downloading from URLs containing these substrings
   ARIA_FILTERED_FILENAMES: ['YIFY'], // Files/top level directories with these substrings in the filename won't be downloaded
