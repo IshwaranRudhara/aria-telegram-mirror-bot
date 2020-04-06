@@ -12,8 +12,8 @@ module.exports = Object.freeze({
   AUTHORIZED_CHATS: [-1001486387452],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
-    ENABLED: false,
-    EMAILS: ['someMail@gmail.com', 'someOtherMail@gmail.com']
+    ENABLED: true,
+    EMAILS: ['pankajmallah685@gmail.com']
   },
   DOWNLOAD_NOTIFY_TARGET: {  // Information about the web service to notify on download completion.
     enabled: false,   // Set this to true to use the notify functionality
